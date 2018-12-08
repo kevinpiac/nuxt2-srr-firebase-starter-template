@@ -1,0 +1,11 @@
+{
+  "runtime": "nodejs",
+  "env": "flex",
+  "api_version": 1,
+  "skip_files": ["^node_modules$"],
+  "env_variables": {
+    "FIREBASE_API_KEY": "",
+    "FIREBASE_AUTH_DOMAIN": "",
+    "FIREBASE_PROJECT_ID": ""
+  }
+}

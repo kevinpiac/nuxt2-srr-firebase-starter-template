@@ -1,0 +1,9 @@
+runtime: nodejs
+env: flex
+api_version: 1
+skip_files:
+ - ^node_modules$
+env_variables:
+  - FIREBASE_API_KEY: 'this variable is also needed in .nuxt.config'
+  - FIREBASE_AUTH_DOMAIN: 'this variable is also needed in .nuxt.config'
+  - FIREBASE_PROJECT_ID: 'this variable is also needed in .nuxt.config'
